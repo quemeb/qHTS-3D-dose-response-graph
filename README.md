@@ -1,5 +1,7 @@
 <a href="https://zenodo.org/badge/latestdoi/196873146"><img src="https://zenodo.org/badge/196873146.svg" alt="DOI"></a>
 
-# qHTS 3D dose response
-### This project was created to interactively visualize 3D waterfall plots for quantitative High Throughput Screenings (qHTS) dose response
-More information about qHTS can be found at https://www.pnas.org/content/103/31/11473
+# qHTS 3D concentration/dose response
+
+<p>Obtaining a comprehensive view of the level of bioactivity from <a href="https://www.pnas.org/content/103/31/11473">qHTS</a> is highly informative from several perspectives. This type of data visualization can provide a pharmacological assessment supporting the identification of compounds displaying a structure-activity relationship for further development. Our application allows researchers to visualize chemical compounds from a 10,000-foot view.</br>
+<p>In addition, the script used to graph the qHTS data, has allowed our team to graph 3-dimensional qHTS data for various assays in a simple and time efficient manner. Before creating these scripts, we used various software to graph the 3D qHTS data. While, they were able to accomplish the task, they were not user friendly and incredibly time consuming. 
+<p>Two of the main purposes of sharing these scripts were 1) to reduce the data graphing processing time and 2) to create a user-friendly code for biologists, chemists, informaticians, and the general public to create 3D qHTS graphs. Creating a user-friendly code for everyone could encourage research reproducibility because a lot of the data from qHTS assays are available on <a href="https://pubchem.ncbi.nlm.nih.gov/">PubChem</a>. However, there is no standard open-source tool, that we know of, to recreate these graphs. Our hope is that by creating open-source tools we can help the scientific community to visualize their research data better.
